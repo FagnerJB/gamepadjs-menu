@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Gamepad Browse Menu</title>
+    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.10.1/css/all.css' type='text/css' />
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Montserrat%3A300%2C600&display=swap' type='text/css' />
+    <link rel='stylesheet' href='style.css' type='text/css' />
+  </head>
+  <body>
+    <div class="container">
+        <header>
+            <h1>Gamepad Browse Menu</h1>
+        </header>
+        <main>
+            <h2>Originals</h2>
+            <div class="line originals"></div>
+            <h2>Movies</h2>
+            <div class="line movies"></div>
+            <h2>TV Shows</h2>
+            <div class="line tvshows"></div>
+            <h2>Animated Series</h2>
+            <div class="line animated"></div>
+        </main>
+        <footer>
+            <p>
+                This is a work of fiction. Images by respective owners.<br>
+                <a href="https://github.com/FagnerJB/gamepadjs-menu" tabindex="-1" target="_blank">Code</a>
+                <a href="https://fagnerjb.com/license#2019" target="_blank" tabindex="-1" target="_blank">by</a>
+                <a href="https://fagnerjb.com" tabindex="-1">Fagner JB.</a>
+            </p>
+        </footer>
+        <aside>
+            <h5>Navigate</h5>
+            <div class="keyboard">
+                <kbd><i class="fas fa-caret-up"></i></kbd> <kbd><i class="fas fa-caret-left"></i></kbd> <kbd><i class="fas fa-caret-down"></i></kbd> <kbd><i class="fas fa-caret-right"></i></kbd>
+            </div>
+            <div class="gamepad hide">
+                <kbd class="circle">L</kbd>
+            </div>
+
+            <h5>Select</h5>
+            <div class="keyboard">
+                <kbd>Enter</kbd>
+            </div>
+            <div class="gamepad hide">
+                <kbd class="circle">X</kbd>
+            </div>
+
+            <h5>Back</h5>
+            <div class="keyboard">
+                <kbd>Esc</kbd>
+            </div>
+            <div class="gamepad hide">
+                <kbd class="circle">B</kbd>
+            </div>
+
+            <div class="keyboard">
+                <h5>Or gamepad</h5>
+                <i class="fas fa-gamepad"></i> <span class="detect">No found</span>
+            </div>
+        </aside>
+    </div>
+    <template id="video">
+        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/q7fAWzI7EbI?controls=0&autoplay=true&rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </template>
+    <script type='text/javascript' src='script.js'></script>
+    <script type='text/javascript' src='gamepad.js'></script>
+    </body>
+</html>
